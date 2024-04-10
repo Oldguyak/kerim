@@ -1,0 +1,62 @@
+
+
+.banner.active.large {
+  width: 70%;
+  left: 0; 
+}
+
+.banner:hover {
+  opacity: 1; 
+}
+.banner-slider {
+  display: flex;
+  position: relative;
+  width: 100%;
+  left: 9.5%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.banner-image {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.banner-image.active {
+  transform: scale(1.1); 
+  z-index: 2;
+  width: 80%;
+
+}
+
+.banner-image.inactive {
+  transform: scale(0.8); 
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  width: 52%;
+  margin-bottom: -40px;
+  left: 1%;
+  position: relative;
+}
+
+.banner-image.smaller {
+  transform: scale(0.8); 
+  z-index: 0;
+
+}
+.banner-stack{
+  width: 100%;
+  left: auto;
+  position: relative;
+  height: fit-content;
+  top:-55px;
+}
+
+.banner-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

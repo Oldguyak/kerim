@@ -1,0 +1,36 @@
+.price-range-filter{
+  margin-top: 15px;
+  border-bottom: 1px solid #E4E7E9;
+  padding-bottom: 20px;
+}
+.price-ranges {
+    display: flex;
+    gap: 10px; 
+    flex-direction: column;
+  }
+  .filter-title{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #191C1F;
+    margin-bottom: 15px!important;
+  }
+  label {
+    display: flex;
+    align-items: center;
+  }
+  .price-lable{
+    font-size: 14px;
+    color: #475156;
+    font-family: sans-serif;
+  }
+  
+  .price-input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    width: 40%;
+    height: 20px;
+    margin-right: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+  }
